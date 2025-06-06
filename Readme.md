@@ -17,16 +17,16 @@ SecureFileCrypt is a simple and secure file encryption/decryption web tool. Uplo
 ## 📁 Project Structure
 ```
 SecureFileCrypt/
-├── main.py # Flask app – handles routes and runs the server
-├── encryptor.py # Core encryption and decryption logic using Fernet
-├── utils.py # Key generation and validation helpers
+├── main.py        # Flask app – handles routes and runs the server
+├── encryptor.py   # Core encryption and decryption logic using Fernet
+├── utils.py       # Key generation and validation helpers
 ├── templates/
-│ └── index.html # Frontend HTML template (upload UI)
-├── uploads/ # Temporary file storage for encrypted/decrypted files
-├── secret.key # Encryption key file (auto-generated)
-├── requirements.txt # Python dependencies
-├── .gitignore # Hides unnecessary files from Git
-└── README.md # Project documentation
+│ └── index.html   # Frontend HTML template (upload UI)
+├── uploads/       # Temporary file storage for encrypted/decrypted files
+├── secret.key     # Encryption key file (auto-generated)
+├── requirements.txt  # Python dependencies
+├── .gitignore     # Hides unnecessary files from Git
+└── README.md      # Project documentation
 ```
 ---
 
