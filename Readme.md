@@ -23,7 +23,6 @@ SecureFileCrypt/
 ├── templates/
 │ └── index.html   # Frontend HTML template (upload UI)
 ├── uploads/       # Temporary file storage for encrypted/decrypted files
-├── secret.key     # Encryption key file (auto-generated)
 ├── requirements.txt  # Python dependencies
 ├── .gitignore     # Hides unnecessary files from Git
 └── README.md      # Project documentation
