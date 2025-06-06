@@ -13,8 +13,9 @@ SecureFileCrypt is a simple and secure file encryption/decryption web tool. Uplo
 
 ---
 
-## 📁 Project Structure
 
+## 📁 Project Structure
+```
 SecureFileCrypt/
 ├── main.py # Flask app – handles routes and runs the server
 ├── encryptor.py # Core encryption and decryption logic using Fernet
@@ -26,8 +27,7 @@ SecureFileCrypt/
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Hides unnecessary files from Git
 └── README.md # Project documentation
-
-
+```
 ---
 
 ## 🧪 How to Run Locally
@@ -39,29 +39,30 @@ Follow these steps to run the project on your local machine:
 ```bash
 git clone https://github.com/Gaurav-dev-24/SecureFileCrypt.git
 cd SecureFileCrypt
-
+```
 
 ### 2. Create and activate virtual environment (for macOS/Linux)
 
 ```bash 
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 For Windows:
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 ### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### 5. Start the Flask server
 
 ```bash
 python main.py
-
+```
 
 ---
 
