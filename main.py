@@ -4,17 +4,17 @@ import os
 
 app = Flask(__name__)
 
-# ✅ Get absolute path to this file's folder
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# ✅ uploads/ folder path inside SecureFileCrypt
+
 UPLOAD_FOLDER = os.path.join(BASE_DIR, 'uploads')
 
-# ✅ Create uploads folder if not exists
+
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
-# ✅ Load key (you must generate this once and save as 'secret.key')
+
 with open("secret.key", "rb") as f:
     key = f.read()
 
